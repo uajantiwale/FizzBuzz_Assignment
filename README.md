@@ -16,7 +16,7 @@ OutPut -
 ## Start the server
 
 ```
-nodemon star
+nodemon start
 
 ```
 
