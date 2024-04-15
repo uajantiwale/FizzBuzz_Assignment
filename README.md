@@ -6,6 +6,8 @@ Input - 3 5 15 23 A
 
 OutPut -
 
+#### Result
+
 | 3 | Fizz |
 | 5 | Buzz |
 | 15 | FizzBuzz |
@@ -13,7 +15,12 @@ OutPut -
 
 ## Start the server
 
-### `nodemon star` Server will start at 3000 port
+```
+nodemon star
+
+```
+
+Server will start at 3000 port
 
 ## Start the client
 
