@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Button } from '@material-ui/core';
+import { Button, Typography } from '@material-ui/core';
 
 function App() {
   const [value, setValue] = useState('');
@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className='App'>
-      <h1>Hello welcome to Fizz Buzz!!</h1>
+      <Typography variant='h1'>Hello welcome to Fizz Buzz!!</Typography>
       <textarea value={value} onChange={(e) => handleChange(e)}></textarea>
       <br />
       <Button
@@ -41,7 +41,7 @@ function App() {
       </Button>
       <br />
       <br />
-      <h3>Resule -</h3>
+      <Typography variant='h3'>Result -</Typography>
       {resData.map((data) => {
         return (
           <>
